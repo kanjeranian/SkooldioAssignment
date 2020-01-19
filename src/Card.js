@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PrevScore from './PrevScore';
 import engineerLogo from './img/engineer.svg';
 import favoriteIcon from './img/favorite.svg';
