@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PrevScore from './PrevScore';
 import engineerLogo from './img/engineer.svg';
 import favoriteIcon from './img/favorite.svg';
@@ -11,6 +11,7 @@ import share from './img/share.svg';
 import Round from './Round';
 
 function toCommas(value) {
+  if (value == undefined) return '-';
   return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
